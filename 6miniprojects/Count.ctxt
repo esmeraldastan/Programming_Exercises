@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.params=str\ x
+comment0.target=int\ count(java.lang.String,\ char)
+numComments=1
