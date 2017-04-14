@@ -7,13 +7,13 @@
  */
 public class Count{
     public static int count(String str, char x){
-        int count = 0;
-        for ( int i = 0; i< str.length(); i++){
-            if ( str.charAt(i) == x){
-           count++;//gggg
+        if ( str.length() == 0){
+            return 0;
         }
-        
+        int count = 0;
+        if (str.charAt(0) == x){
+            count ++;
+        }
+        return count + count(str.substring(1),x);
     }
-    return count;
-}
 }
