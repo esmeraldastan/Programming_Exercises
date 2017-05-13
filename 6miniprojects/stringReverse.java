@@ -2,10 +2,10 @@
 /**
  * Write a description of class stringReverse here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Esmeralda Lopez
+ * @version 5.11.17    
  */
-public class stringReverse{
+ public class stringReverse{
     public String reverseDisplay(String x){
     if (x.length() == 0){
         return x;
